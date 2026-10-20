@@ -1,0 +1,86 @@
+/*
+Themes Name: mahmudThem
+Version: 0.1.0
+Author: Md. Sultan Mahmud
+Author URI: https://sultanmahmud-webdeveloper.github.io/portfolio-2/index.html
+Description: mahmud Theme is a custom, lightweight, and modern responsive WordPress theme created by Md. Sultan Mahmud.
+*/
+
+
+
+
+*{margin: 0;
+	padding: 0;
+
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #14A44D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+}
+.result-card {
+    background: #084727;
+    padding: 30px;
+    border-radius: 22px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 700px;
+    width: 200%;
+    box-sizing: border-box;
+
+
+}
+.result-card h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
+.input-group {
+    margin-bottom: 20px;
+}
+.input-group input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+.input-group input:focus {
+    border-color: #3498db;
+}
+/* button style */
+.btn-check {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+.btn-check:hover {
+    background-color: #EE6C09;
+}
+/* display box*/
+
+#display-result {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    min-height: 24px;
+}
